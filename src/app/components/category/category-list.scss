@@ -1,0 +1,19 @@
+.category-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 7px 4px;
+    .txt{
+        font-size: 13px;
+        font-family: 'Lato';
+        box-shadow: 5px  #fefef7;
+        background: #fefefe;
+        box-shadow: 10px 10px 5px  #fefef7;
+        padding:2px 8px;
+        cursor: pointer;
+        &:hover{
+            background: #D3D3D3;
+        }
+    }
+
+}
